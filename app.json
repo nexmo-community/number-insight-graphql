@@ -1,0 +1,14 @@
+{
+  "name": "Nexmo Number Insight API GraphQL Server",
+  "description": "A simple GraphQL Wrapper for the Nexmo Number Insight REST API",
+  "repository": "https://github.com/nexmo-community/number-insight-graphql",
+  "keywords": ["graphql", "apollo", "node", "nexmo"],
+  "env": {
+    "NEXMO_API_KEY": {
+      "description": "Your Nexmo API key"
+    },
+    "NEXMO_API_SECRET": {
+      "description": "Your Nexmo API secret"
+    }
+  }
+}
