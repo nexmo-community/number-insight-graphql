@@ -1,6 +1,6 @@
 # Number Insight API GraphQL Example
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://nexmo.dev/ni-graphql-heroku) [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://nexmo.dev/ni-graphql-now)
 
 Nexmo's [Number Insight API](https://developer.nexmo.com/number-insight/overview) is a great way to get more information about numbers that you have stored in your system.
 
