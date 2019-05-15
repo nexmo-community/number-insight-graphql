@@ -1,5 +1,7 @@
 # Number Insight API GraphQL Example
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 Nexmo's [Number Insight API](https://developer.nexmo.com/number-insight/overview) is a great way to get more information about numbers that you have stored in your system.
 
 This repository contains an example GraphQL server for retreiving information from the Number Insight API, it will work with the [basic, standard and advanced levels](https://developer.nexmo.com/number-insight/overview#basic-standard-and-advanced-apis) of information retrieval.
@@ -104,3 +106,7 @@ This will return a JSON response similar to this:
 ```
 
 The full list of available parameters from the Number Insight API, and at what level you can access them, can be found in the [API Reference](https://developer.nexmo.com/api/number-insight).
+
+## Deploying The Server
+
+The quickest way to deploy this to a production server would be to use the one-click deploy buttons at the top of this readme.
