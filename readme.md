@@ -109,4 +109,6 @@ The full list of available parameters from the Number Insight API, and at what l
 
 ## Deploying The Server
 
-The quickest way to deploy this to a production server would be to use the one-click deploy buttons at the top of this readme.
+The quickest way to deploy this to a production server would be to use the one-click deploy buttons at the top of this readme. They will both as you to set your `NEXMO_API_KEY` and `NEXMO_API_SECRET` as part of the deployment.
+
+If deploying to your own server, ensure that these environment variables are also set.
