@@ -10,11 +10,11 @@ class NumberInsightAPI extends RESTDataSource {
   willSendRequest(request) {
     request.params.set(
       'api_key',
-      config.get('nexmo_api_key') || process.env.NEXMO_API_KEY
+      process.env.NEXMO_API_KEY || config.get('nexmo_api_key')
     );
     request.params.set(
       'api_secret',
-      config.get('nexmo_api_secret') || process.env.NEXMO_API_SECRET
+      process.env.NEXMO_API_SECRET || config.get('nexmo_api_secret')
     );
   }
 
