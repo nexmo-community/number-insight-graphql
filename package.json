@@ -1,14 +1,13 @@
 {
   "name": "number-insight-graphql",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A GraphQL Server that wraps the Nexmo Number Insight API",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Martyn Davies <devrel@nexmo.com>",
+  "license": "MIT",
   "dependencies": {
     "apollo-datasource-rest": "^0.4.0",
     "apollo-server": "^2.5.0",
