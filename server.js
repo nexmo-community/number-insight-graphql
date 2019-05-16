@@ -16,9 +16,11 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
   introspection:
-    process.env.GRAPHQL_INTROSPECTION || config.get('graphql_introspection'),
+    process.env.GRAPHQL_INTROSPECTION ||
+    config.get('graphql_introspection') ||
+    false,
   playground:
-    process.env.GRAPHQL_PLAYGROUND || config.get('graphql_playground'),
+    process.env.GRAPHQL_PLAYGROUND || config.get('graphql_playground') || false,
   dataSources: () => {
     return {
       numberInsight: new NumberInsightAPI()
