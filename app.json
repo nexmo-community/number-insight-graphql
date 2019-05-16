@@ -9,6 +9,14 @@
     },
     "NEXMO_API_SECRET": {
       "description": "Your Nexmo API secret"
+    },
+    "GRAPHQL_INTROSPECTION": {
+      "description": "Allow introspection in production (set to true to activate)",
+      "value": "false"
+    },
+    "GRAPHQL_PLAYGROUND": {
+      "description": "Allow use of the GraphQL Playground in production (set to true to activate)",
+      "value": "false"
     }
   }
 }
