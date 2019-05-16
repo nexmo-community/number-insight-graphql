@@ -29,7 +29,9 @@ Set your `default.json` file up like this:
 ```json
 {
   "nexmo_api_key": "<your api key>",
-  "nexmo_api_secret": "<your api secret>"
+  "nexmo_api_secret": "<your api secret>",
+  "graphql_playground": true,
+  "graphql_introspection": true
 }
 ```
 
@@ -112,3 +114,7 @@ The full list of available parameters from the Number Insight API, and at what l
 The quickest way to deploy this to a production server would be to use the one-click deploy buttons at the top of this readme. They will both as you to set your `NEXMO_API_KEY` and `NEXMO_API_SECRET` as part of the deployment.
 
 If deploying to your own server, ensure that these environment variables are also set.
+
+## GraphQL Playground and Introspection in Production
+
+By default, introspection and the GraphQL playground are not available when the `NODE_ENV` on a server is set to `production`. If you do want to use either of these options once you have deployed the server make sure to set the `GRAPHQL_INTROSPECTION` and `GRAPHQL_PLAYGROUND` to `true` in your environment variables.
