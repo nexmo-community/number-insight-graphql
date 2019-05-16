@@ -3,13 +3,13 @@ const { gql } = require('apollo-server');
 module.exports = gql`
   type Insight {
     status: Int!
-    status_message: String!
-    request_id: String!
-    international_format_number: String!
-    country_code: String!
-    country_code_iso3: String!
-    country_name: String!
-    country_prefix: String!
+    status_message: String
+    request_id: String
+    international_format_number: String
+    country_code: String
+    country_code_iso3: String
+    country_name: String
+    country_prefix: String
     request_price: String
     refund_price: String
     remaining_balance: String
@@ -27,17 +27,17 @@ module.exports = gql`
   }
 
   type Carrier {
-    network_code: String!
-    name: String!
-    country: String!
-    network_type: String!
+    network_code: String
+    name: String
+    country: String
+    network_type: String
   }
 
   type OriginalCarrier {
-    network_code: String!
-    name: String!
-    country: String!
-    network_type: String!
+    network_code: String
+    name: String
+    country: String
+    network_type: String
   }
 
   type Roaming {
